@@ -1,0 +1,289 @@
+/* ||||||||||||||||||||||||||||||||| Griff's polished turd ||||||||||||||||||||||||||||||||| */
+
+/* ||||||||||||||||||||||||||||||||| First thing's first, subreddit-wide stuff ||||||||||||||||||||||||||||||||| */
+body {
+  background-color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: -1px 1px 3px #fff;
+}
+
+.hover a:hover {
+  text-shadow: -1px 1px 3px #fff;
+}
+
+.error {
+  color: #095f00;
+}
+
+.tagline a {
+  color: #17ff36;
+  text-decoration: none;
+}
+
+.tagline a:hover {
+  text-shadow: -1px 1px 3px #00ff25;
+}
+
+.link .usertext-body .md {
+  background: black;
+  color: #17ff36;
+  border: 2px solid #17ff36;
+  border-radius: 0;
+}
+
+/* ||||||||||||||||||||||||||||||||| Move on to header ||||||||||||||||||||||||||||||||| */
+#sr-header-area a:hover {
+  text-decoration: none;
+  text-shadow: -1px 1px 3px #00ff25;
+}
+
+#header {
+  border-bottom: 2px solid #17ff36;
+  background-color: #000;
+}
+
+.redditname {
+  font-size: 50px;
+  color: #17ff36;
+}
+
+.redditname:hover {
+  text-shadow: -1px 1px 6px #00ff25;
+}
+
+.tabmenu li a {
+  border-bottom: none;
+}
+
+.tabmenu .selected a {
+  color: 17ff36;
+  background: #000;
+  border: 1px solid #17ff36;
+  border-bottom-color: black;
+}
+
+#header-bottom-right .user {
+  color: #000;
+  font-weight: bold; /* (With the green background, this text looks kinda shitty with normal weight) */
+}
+
+#header-bottom-right .user a, .pref-lang {
+  color: #fff;
+}
+
+/* ||||||||||||||||||||||||||||||||| Sidebar, and let's take it from the top ||||||||||||||||||||||||||||||||| */
+
+input[type=text], input[type=password] {
+  background-color: #000;
+  border-color: #17ff36;
+  color: #17ff36;
+}
+
+input[type="text"]:focus, input[type=password]:focus {
+  outline: #17ff36 5px auto;
+}
+
+.infobar, .linkinfo {
+  background-color: #000;
+  border: 2px solid #17ff36;
+}
+
+.login-form-side .submit {
+  background-color: #17ff36;
+  border-color: #000;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.submit-link, .submit-text {
+  background-color: #000;
+  border-color: #17ff36;
+}
+
+.morelink, .morelink:hover {
+  background: #000;
+  border-color: #17ff36;
+  background-image: none;
+}
+
+.morelink a, .morelink:hover a {
+    color: #17ff36;
+}
+
+.morelink .nub {
+  height: 29px;
+  background: #000;
+  border: 1px solid #17ff36;
+  border-left: none;
+}
+
+.morelink:hover .nub {
+  background-color: #17ff36;
+}
+
+.md a:hover, .author:hover {
+  text-shadow: -1px 1px 3px #fff;
+}
+
+/* Lazor's dirty ass code Of Doom And Stuff!*/
+.titlebox:before{color:#17ff36;}
+
+/*Everything else in the sidebar */
+.md h1, .md h2, .md h3, .md h4, .md h5, .md h6{color:#17ff36;}
+.side .md p, .side .md ul, .side .md ol{color:#17ff36;}
+
+/* Links */
+.md a{color:#6EFF8B}
+.md a:visited{color:17ff36;}
+
+.side{
+color: #17ff36; background-color: [#000000] !important;
+  background-color:#000000;
+
+}
+
+.pagename a { color: #17ff36; }
+
+#sr-header-area a {
+    color : #17ff36;
+}
+
+#header {
+    border-bottom-color : #17ff36;
+    background-color : #000000;
+}
+#sr-header-area {
+    border-bottom-color : #CFCFCF;
+    background-color : #171717;
+}
+#header-bottom-right {
+    background-color : #17ff36;
+}
+
+.comment .md { color: #17ff36; }
+
+.comment .author { color: #def; }
+div.content #siteTable div.link div.entry p.title a.title {
+    color: #17ff36;
+}
+a.title:visited { color: #17ff36 !important; }
+div.side a:hover{
+    color: #17ff36;
+}
+
+/* Upvote arrow */
+.arrow.up {
+    width: 0px;
+    background-image:none;
+    height: 0;
+    border-bottom: 8px solid #bdbdbd;
+    border-left: 8px solid #fff;
+    border-left-color:transparent;
+    border-right: 8px solid #fff;
+    border-right-color:transparent;
+    margin-bottom:6px;
+}
+.arrow.up:after {
+    content:"";
+    position:relative;
+    top:7px;
+    left:-3px;
+    width:5px;
+    height:6px;
+    background: #bdbdbd;
+    background-image: -webkit-linear-gradient(top, #bdbdbd, #dcdcdc);
+    background-image: -moz-linear-gradient(top, #bdbdbd, #dcdcdc);
+    background-image: -ms-linear-gradient(top, #bdbdbd, #dcdcdc);
+    background-image: -o-linear-gradient(top, #bdbdbd, #dcdcdc);
+    background: linear-gradient(to bottom, #bdbdbd, #dcdcdc);
+    display:block;
+}
+.arrow.upmod {
+    width: 0px;
+    background-image:none;
+    height: 0;
+    border-bottom: 8px solid #17FF36;
+    border-left: 8px solid #fff;
+    border-left-color:transparent;
+    border-right: 8px solid #fff;
+    border-right-color:transparent;
+    margin-bottom:6px;
+}
+.arrow.upmod:after {
+    content:"";
+    position:relative;
+    top:7px;
+    left:-3px;
+    width:5px;
+    height:6px;
+    background: #17FF36;
+    background-image: -webkit-linear-gradient(top, #17FF36, #64FF83);
+    background-image: -moz-linear-gradient(top, #17FF36, #64FF83);
+    background-image: -o-linear-gradient(top, #17FF36, #64FF83);
+    background-image: -ms-linear-gradient(top, #17FF36, #64FF83);
+    background-image: linear-gradient(to bottom, #17FF36, #64FF83);
+    display:block;
+}
+/* Downvote arrow */
+.arrow.down {
+    width: 0px;
+    height: 0;
+    margin-top:8px;
+    background-image: none;
+    border-top: 8px solid #BDBDBD;
+    border-left: 8px solid #FFF;
+    border-left-color: transparent;
+    border-right: 8px solid #FFF;
+    border-right-color: transparent;
+}
+.arrow.down:after {
+    content: "";
+    position: relative;
+    bottom: 13px;
+    left: -3px;
+    width: 5px;
+    height: 6px;
+    background: #BDBDBD;
+    background-image: -webkit-linear-gradient(top, #DCDCDC, #BDBDBD);
+    background-image: -moz-linear-gradient(top, #DCDCDC, #BDBDBD);
+    background-image: -o-linear-gradient(top, #DCDCDC, #BDBDBD);
+    background-image: -ms-linear-gradient(top, #DCDCDC, #BDBDBD);
+    background-image: linear-gradient(to bottom, #DCDCDC, #BDBDBD);
+    display: block;}
+.arrow.downmod {
+    width: 0px;
+    height: 0;
+    margin-top: 8px;
+    background-image: none;
+    border-top: 8px solid #FF0D0D;
+    border-left: 8px solid #FFF;
+    border-left-color: transparent;
+    border-right: 8px solid #FFF;
+    border-right-color: transparent;
+}
+.arrow.downmod:after {
+    content: "";
+    position: relative;
+    bottom: 13px;
+    left: -3px;
+    width: 5px;
+    height: 6px;
+    background: #9494FF;
+    background-image: -webkit-linear-gradient(top, #FF5A5A, #FF0D0D);
+    background-image: -moz-linear-gradient(top, #FF5A5A, #FF0D0D);
+    background-image: -o-linear-gradient(top, #FF5A5A, #FF0D0D);
+    background-image: -ms-linear-gradient(top, #FF5A5A, #FF0D0D);
+    background-image: linear-gradient(to bottom, #FF5A5A, #FF0D0D);
+    display: block;
+}
