@@ -153,6 +153,7 @@ color: #17ff36; background-color: [#000000] !important;
 
 }
 
+
 .pagename a { color: #17ff36; }
 
 #sr-header-area a {
@@ -181,6 +182,14 @@ a.title:visited { color: #17ff36 !important; }
 div.side a:hover{
     color: #17ff36;
 }
+.morelink .nub,
+.create .spacer,
+.leavemoderator,
+.titlebox .toggle[class],
+.icon-menu a {
+    background-color: #000000;
+}
+
 #header .tabmenu li a { color: #17ff36; background-color: #000; }
 
 #header .tabmenu li.selected a { color: #000; background-color: #17ff36; }
