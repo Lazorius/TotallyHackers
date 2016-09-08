@@ -181,6 +181,9 @@ a.title:visited { color: #17ff36 !important; }
 div.side a:hover{
     color: #17ff36;
 }
+#header .tabmenu li a { color: #17ff36; background-color: #000; }
+
+#header .tabmenu li.selected a { color: #000; background-color: #17ff36; }
 
 /* Upvote arrow */
 .arrow.up {
