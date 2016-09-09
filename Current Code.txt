@@ -194,6 +194,9 @@ div.side a:hover{
 
 #header .tabmenu li.selected a { color: #000; background-color: #17ff36; }
 
+textarea, .usertext button {background: #000; border-color: #17ff36; color: #17ff36;}
+textarea:focus {outline-color: #17ff36;}
+
 /* Upvote arrow */
 .arrow.up {
     width: 0px;
