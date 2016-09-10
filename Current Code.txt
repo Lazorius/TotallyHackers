@@ -218,6 +218,8 @@ textarea:focus {outline-color: #17ff36;}
   .titlebox .users-online span.number:after { content: " h4ck3r5 h3r3 n0w"; }
 .new-comment .usertext-body { background: #000000; }
 
+/* ||||||||||||||||||||||||||||||||| Up/Down votes ||||||||||||||||||||||||||||||||| */
+
 /* Upvote arrow */
 .arrow.up {
     width: 0px;
