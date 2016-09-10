@@ -135,15 +135,17 @@ input[type="text"]:focus, input[type=password]:focus {
 }
 
 .md a:hover, .author:hover {
-  text-shadow: -1px 1px 3px #fff;
+  text-shadow: -1px 1px 3px #17ff36;
 }
 
 /* ||||||||||||||||||||||||||||||||| Lazor's dirty ass code Of Doom And Stuff! The Answer to Life, The universe and Everything is 42 ||||||||||||||||||||||||||||||||| */
 
 /* SPECIAL USER COLOURS */
 
-.submitter .author[href$="Lazorius"] { color: #14AC00; }
-.submitter .author[href$="GriefMachine"] { color: #72cd66; }
+a.author[href$="Lazorius"] { color: #70ff70; font-weight: bold !important; }
+a.author[href$="Lazorius"]:after { content: "    [0wn3r]"; }
+
+a.author[href$="GriefMachine"] { color:#70ff70; }
 
 /* START */
 
@@ -190,10 +192,7 @@ color: #17ff36; background-color: [#000000] !important;
 div.content #siteTable div.link div.entry p.title a.title {
     color: #17ff36;
 }
-a.title:visited { color: #17ff36 !important; }
-div.side a:hover{
-    color: #17ff36;
-}
+
 .morelink .nub,
 .create .spacer,
 .leavemoderator,
@@ -217,8 +216,6 @@ textarea:focus {outline-color: #17ff36;}
   .titlebox .number:after { content: " h4ck3r5"; }
   .titlebox .users-online span.number:after { content: " h4ck3r5 h3r3 n0w"; }
 .new-comment .usertext-body { background: #000000; }
-
-/* ||||||||||||||||||||||||||||||||| Up/Down votes ||||||||||||||||||||||||||||||||| */
 
 /* Upvote arrow */
 .arrow.up {
