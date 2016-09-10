@@ -1,144 +1,8 @@
 /* ||||||||||||||||||||||||||||||||| www.reddit.com/r/TotallyHackers Source Code ||||||||||||||||||||||||||||||||| */
 
-/* ||||||||||||||||||||||||||||||||| Griff's polished turd ||||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||||| Lazor's dirty code Of Doom And Stuff! The Answer to Life, The universe and Everything is 42 ||||||||||||||||||||||||||||||||| */
 
-/* ||||||||||||||||||||||||||||||||| First thing's first, subreddit-wide stuff ||||||||||||||||||||||||||||||||| */
-body {
-  background-color: #000;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #fff;
-  text-shadow: -1px 1px 3px #fff;
-}
-
-.hover a:hover {
-  text-shadow: -1px 1px 3px #fff;
-}
-
-.error {
-  color: #095f00;
-}
-
-.tagline a {
-  color: #17ff36;
-  text-decoration: none;
-}
-
-.tagline a:hover {
-  text-shadow: -1px 1px 3px #00ff25;
-}
-
-.link .usertext-body .md {
-  background: black;
-  color: #17ff36;
-  border: 2px solid #17ff36;
-  border-radius: 0;
-}
-
-/* ||||||||||||||||||||||||||||||||| Move on to header ||||||||||||||||||||||||||||||||| */
-#sr-header-area a:hover {
-  text-decoration: none;
-  text-shadow: -1px 1px 3px #00ff25;
-}
-
-#header {
-  border-bottom: 2px solid #17ff36;
-  background-color: #000;
-}
-
-.redditname {
-  font-size: 50px;
-  color: #17ff36;
-}
-
-.redditname:hover {
-  text-shadow: -1px 1px 6px #00ff25;
-}
-
-.tabmenu li a {
-  border-bottom: none;
-}
-
-.tabmenu .selected a {
-  color: 17ff36;
-  background: #000;
-  border: 1px solid #17ff36;
-  border-bottom-color: black;
-}
-
-#header-bottom-right .user {
-  color: #000;
-  font-weight: bold; /* (With the green background, this text looks kinda shitty with normal weight) */
-}
-
-#header-bottom-right .user a, .pref-lang {
-  color: #000000;
-}
-
-/* ||||||||||||||||||||||||||||||||| Sidebar, and let's take it from the top ||||||||||||||||||||||||||||||||| */
-
-input[type=text], input[type=password] {
-  background-color: #000;
-  border-color: #17ff36;
-  color: #17ff36;
-}
-
-input[type="text"]:focus, input[type=password]:focus {
-  outline: #17ff36 5px auto;
-}
-
-.infobar, .linkinfo {
-  background-color: #000;
-  border: 2px solid #17ff36;
-}
-
-.login-form-side .submit {
-  background-color: #17ff36;
-  border-color: #000;
-  font-size: 10px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #000;
-}
-
-.submit-link, .submit-text {
-  background-color: #000;
-  border-color: #17ff36;
-}
-
-.morelink, .morelink:hover {
-  background: #000;
-  border-color: #17ff36;
-  background-image: none;
-}
-
-.morelink a, .morelink:hover a {
-    color: #17ff36;
-}
-
-.morelink .nub {
-  height: 29px;
-  background: #000;
-  border: 1px solid #17ff36;
-  border-left: none;
-}
-
-.morelink:hover .nub {
-  background-color: #17ff36;
-}
-
-.md a:hover, .author:hover {
-  text-shadow: -1px 1px 3px #17ff36;
-}
-
-/* ||||||||||||||||||||||||||||||||| Lazor's dirty ass code Of Doom And Stuff! The Answer to Life, The universe and Everything is 42 ||||||||||||||||||||||||||||||||| */
+/* a.author, .res a.author { color: #17ff36 !important;} */
 
 /* SPECIAL USER COLOURS */
 
@@ -148,6 +12,11 @@ a.author[href$="Lazorius"]:after { content: "    [0wn3r]"; }
 a.author[href$="GriefMachine"] { color:#70ff70; }
 
 /* START */
+
+/*Add Image to Sidebar*/
+div.side div.spacer:nth-of-type(1){
+    padding-top: 300px; /*Change "300px" to the height to the height of your image*/
+    background:url(%%Sidebar%%) top center no-repeat;}
 
 .titlebox:before{color:#17ff36;}
 
@@ -321,4 +190,142 @@ textarea:focus {outline-color: #17ff36;}
     background-image: -ms-linear-gradient(top, #FF5A5A, #FF0D0D);
     background-image: linear-gradient(to bottom, #FF5A5A, #FF0D0D);
     display: block;
+}
+
+/* ||||||||||||||||||||||||||||||||| Griff's polished turd ||||||||||||||||||||||||||||||||| */
+
+/* ||||||||||||||||||||||||||||||||| First thing's first, subreddit-wide stuff ||||||||||||||||||||||||||||||||| */
+body {
+  background-color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: -1px 1px 3px #fff;
+}
+
+.hover a:hover {
+  text-shadow: -1px 1px 3px #fff;
+}
+
+.error {
+  color: #095f00;
+}
+
+.tagline a {
+  color: #17ff36;
+  text-decoration: none;
+}
+
+.tagline a:hover {
+  text-shadow: -1px 1px 3px #00ff25;
+}
+
+.link .usertext-body .md {
+  background: black;
+  color: #17ff36;
+  border: 2px solid #17ff36;
+  border-radius: 0;
+}
+
+/* ||||||||||||||||||||||||||||||||| Move on to header ||||||||||||||||||||||||||||||||| */
+#sr-header-area a:hover {
+  text-decoration: none;
+  text-shadow: -1px 1px 3px #00ff25;
+}
+
+#header {
+  border-bottom: 2px solid #17ff36;
+  background-color: #000;
+}
+
+.redditname {
+  font-size: 50px;
+  color: #17ff36;
+}
+
+.redditname:hover {
+  text-shadow: -1px 1px 6px #00ff25;
+}
+
+.tabmenu li a {
+  border-bottom: none;
+}
+
+.tabmenu .selected a {
+  color: 17ff36;
+  background: #000;
+  border: 1px solid #17ff36;
+  border-bottom-color: black;
+}
+
+#header-bottom-right .user {
+  color: #000;
+  font-weight: bold; /* (With the green background, this text looks kinda shitty with normal weight) */
+}
+
+#header-bottom-right .user a, .pref-lang {
+  color: #000000;
+}
+
+/* ||||||||||||||||||||||||||||||||| Sidebar, and let's take it from the top ||||||||||||||||||||||||||||||||| */
+
+input[type=text], input[type=password] {
+  background-color: #000;
+  border-color: #17ff36;
+  color: #17ff36;
+}
+
+input[type="text"]:focus, input[type=password]:focus {
+  outline: #17ff36 5px auto;
+}
+
+.infobar, .linkinfo {
+  background-color: #000;
+  border: 2px solid #17ff36;
+}
+
+.login-form-side .submit {
+  background-color: #17ff36;
+  border-color: #000;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.submit-link, .submit-text {
+  background-color: #000;
+  border-color: #17ff36;
+}
+
+.morelink, .morelink:hover {
+  background: #000;
+  border-color: #17ff36;
+  background-image: none;
+}
+
+.morelink a, .morelink:hover a {
+    color: #17ff36;
+}
+
+.morelink .nub {
+  height: 29px;
+  background: #000;
+  border: 1px solid #17ff36;
+  border-left: none;
+}
+
+.morelink:hover .nub {
+  background-color: #17ff36;
+}
+
+.md a:hover, .author:hover {
+  text-shadow: -1px 1px 3px #17ff36;
 }
