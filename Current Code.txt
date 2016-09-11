@@ -2,21 +2,24 @@
 
 /* ||||||||||||||||||||||||||||||||| Lazor's dirty code Of Doom And Stuff! The Answer to Life, The universe and Everything is 42 ||||||||||||||||||||||||||||||||| */
 
-/* a.author, .res a.author { color: #17ff36 !important;} */
+html a.author, html.res a.author { color: #17ff36;}
 
 /* SPECIAL USER COLOURS */
 
-a.author[href$="Lazorius"] { color: #70ff70; font-weight: bold !important; }
-a.author[href$="Lazorius"]:after { content: "    [0wn3r]"; }
+html a.author[href$="Lazorius"] { color: #70ff70; font-weight: bold !important; }
+html a.author[href$="Lazorius"]:after { content: " [0wn3r]"; }
 
-a.author[href$="GriefMachine"] { color:#70ff70; }
+html a.author[href$="TotallyHackers"] { color: #70ff70; font-weight: bold !important; }
+html a.author[href$="TotallyHackers"]:after { content: "[807]"; }
+
+html a.author[href$="GriefMachine"] { color:#70ff70!important; }
 
 /* START */
 
 /*Add Image to Sidebar*/
 div.side div.spacer:nth-of-type(1){
     padding-top: 300px; /*Change "300px" to the height to the height of your image*/
-    background:url(%%Sidebar%%) top center no-repeat;}
+    background:url(%%Anonymous-Green-Barred-300x%%) top center no-repeat;}
 
 .titlebox:before{color:#17ff36;}
 
